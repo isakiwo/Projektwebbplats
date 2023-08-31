@@ -1,7 +1,60 @@
 body{
     margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #555;
 }
 
-img{
-float: right;
+header{
+    border: 5px solid #555;
+    background: #555;
+    }
+    
+    h1 {
+      color: white;
+      text-align: center;
+    }
+    
+ main{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 125px;
+    border-color: #555;
+    background: lightgrey
+ }   
+
+ .main{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+ }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+ 
+.menu {
+    background-color: #555;
+    overflow: hidden;
+  }
+  
+  .menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding:20px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+
+  .menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .menu a.active  { 
+    background-color: #333;
+    color: white;
 }
